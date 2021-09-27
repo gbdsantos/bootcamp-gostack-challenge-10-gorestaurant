@@ -9,7 +9,11 @@
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/top/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant">
 
-  <a href="">
+  <a href="https://www.npmjs.com/package/json-server">
+    <img alt="Json Server version" src="https://img.shields.io/github/package-json/dependency-version/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant/dev/json-server">
+  </a>
+
+  <a href="https://reactjs.org/">
     <img alt="ReactJS version" src="https://img.shields.io/github/package-json/dependency-version/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant/react">
   </a>
 
@@ -40,10 +44,10 @@ This will be application that should permitted pratice of CRUD concept (Create, 
 
 ```Bash
 # Install dependencies
-yarn install
+yarn
 
-# Run migrations
-yarn typeorm migration:run
+# Run fake API server
+  yarn json-server server.json -p 3333
 
 # Run application
 yarn start

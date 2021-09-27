@@ -9,7 +9,11 @@
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/top/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant">
 
-  <a href="">
+  <a href="https://www.npmjs.com/package/json-server">
+    <img alt="Json Server version" src="https://img.shields.io/github/package-json/dependency-version/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant/dev/json-server">
+  </a>
+
+  <a href="https://reactjs.org/">
     <img alt="ReactJS version" src="https://img.shields.io/github/package-json/dependency-version/gbdsantos/bootcamp-gostack-challenge-10-gorestaurant/react">
   </a>
 
@@ -39,7 +43,10 @@ Esta será a aplicação que deverá permitir a prática do conceito CRUD (Criar
 
 ```Bash
 # Instalar dependências
-yarn install
+yarn 
+
+# Executar servidor da API fake
+yarn json-server server.json -p 3333
 
 # Executar aplicação
 yarn start
