@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="GoStack" src="https://imagensbrasil.org/images/2021/05/31/bootcamp-header.png" />
+    <img alt="GoStack" src="https://imagensbrasil.org/images/2021/08/03/Rocketseat---Bootcamp-GoStack-11-Banner.png" />
 </p>
 
 ## :rocket: Challenge 10: Go Restaurant Web
